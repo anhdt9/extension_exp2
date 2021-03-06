@@ -1,0 +1,25 @@
+{
+    "name": "The Anh Extension Example",
+    "version": "1.0",
+    "description": "Extension Example description",
+    "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "storage",
+        "tabs",
+        "notifications",
+        "http://*/",
+        "https://*/"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "page_action": {
+        "default_title": "That's The Anh Extension Example ",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+}
